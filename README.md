@@ -27,7 +27,10 @@ Clone the repo with:
 git clone https://github.com/Nauja/raft-mods.git
 ```
 
-Next go the installation directory of Raft and copy `Raft_Data/Managed/Assembly-CSharp.dll` to `raft-mods/`.
+Next go the installation directory of Raft and copy the following files to `raft-mods/`:
+* `Raft_Data/Managed/Assembly-CSharp.dll`
+* `Raft_Data/Managed/UnityEngine.CoreModule.dll`
+* `Raft_Data/Managed/UnityEngine.UI.dll`
 
 Open `RaftMods.sln` with Visual Studio 2022.
 
@@ -36,6 +39,16 @@ Generate the solution which should produces `.dll` for all mods, i.e.:
 ```
 InfiniteDurability\bin\Release\net48\InfiniteDurability.dll
 ```
+
+## BepInExInfo
+
+![Raft](https://img.shields.io/badge/Raft-1.09+-blue)
+
+Display BepInEx info in the main menu.
+
+Mod at: https://www.nexusmods.com/raft/mods/88
+
+<img src="https://staticdelivery.nexusmods.com/mods/3240/images/88/88-1712435073-429972946.jpeg" width="500px"/>
 
 ## InfiniteDurability
 
