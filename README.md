@@ -24,7 +24,7 @@ Then you can install each mod by dropping the dll file in the game's `BepInEx/pl
 
 ## Build
 
-Simply zip the `banner.jpg`, `icon.png`, `.cs`, `modinfo.json` files of desired mod and change to extension to `.rmod`.
+Simply zip the `banner.jpg`, `icon.png`, `.cs`, `modinfo.json` files of desired mod and change the extension to `.rmod`.
 
 Then right click on the file and choose to open it with Raft Mod Loader.
 
