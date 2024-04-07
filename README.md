@@ -40,7 +40,7 @@ Generate the solution which should produces `.dll` for all mods, i.e.:
 InfiniteDurability\bin\Release\net48\InfiniteDurability.dll
 ```
 
-## BepInExInfo
+## BepInExInfo (BepInEx)
 
 ![Raft](https://img.shields.io/badge/Raft-1.09+-blue)
 
@@ -50,7 +50,7 @@ Mod at: https://www.nexusmods.com/raft/mods/88
 
 <img src="https://staticdelivery.nexusmods.com/mods/3240/images/88/88-1712435073-429972946.jpeg" width="500px"/>
 
-## InfiniteDurability
+## InfiniteDurability (BepInEx)
 
 ![Raft](https://img.shields.io/badge/Raft-1.09+-blue)
 
@@ -66,6 +66,6 @@ Mod at: https://www.nexusmods.com/raft/mods/87
 
 Allow to toggle infinite use of items.
 
-Mod at: 
+Mod at: https://www.raftmodding.com/mods/infinity-use
 
-<img src="" width="500px"/>
+<img src="https://raw.githubusercontent.com/Nauja/raft-mods/main/InifiniteUse/banner.jpg" width="500px"/>
