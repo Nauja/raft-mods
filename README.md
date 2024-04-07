@@ -59,3 +59,13 @@ Lets you activate infinite durability for equipment, consumables, and tools.
 Mod at: https://www.nexusmods.com/raft/mods/87
 
 <img src="https://staticdelivery.nexusmods.com/mods/3240/images/87/87-1712250118-1496865532.png" width="500px"/>
+
+## InfiniteUse
+
+![Raft](https://img.shields.io/badge/Raft-1.09+-blue)
+
+Allow to toggle infinite use of items.
+
+Mod at: 
+
+<img src="" width="500px"/>

@@ -1,0 +1,51 @@
+{
+  "name": "Inifinite Use",
+  "author": "Nauja",
+  "description": "Allow to toggle infinite use of items. Requires ExtraSettingsAPI to configure.",
+  "version": "v1.0.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/inifite-use/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "checkbox",
+      "name": "fluidInfiniteUse",
+      "text": "Fluid Infinite Use",
+      "access": "both",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "name": "foodInfiniteUse",
+      "text": "Food Infinite Use",
+      "access": "both",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "name": "usableInfiniteUse",
+      "text": "Usable Infinite Use",
+      "access": "both",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "name": "equipmentInfiniteUse",
+      "text": "Equipment Infinite Use",
+      "access": "both",
+      "default": true
+    },
+    {
+      "type": "input",
+      "name": "specialInfiniteUse",
+      "text": "Special Infinite Use",
+      "mode": "Standard",
+      "access": "both"
+    }
+  ]
+}
