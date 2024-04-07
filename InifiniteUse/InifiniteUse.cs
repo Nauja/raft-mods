@@ -100,7 +100,7 @@ public class InifiniteUse : Mod
         foodInfiniteUse = ExtraSettingsAPI_GetCheckboxState("foodInfiniteUse");
         usableInfiniteUse = ExtraSettingsAPI_GetCheckboxState("usableInfiniteUse");
         equipmentInfiniteUse = ExtraSettingsAPI_GetCheckboxState("equipmentInfiniteUse");
-        specials = ExtraSettingsAPI_GetInputValue("specialInfiniteUse").Split(',').Select(s => s.Trim()).ToHashSet();
+        specials = ExtraSettingsAPI_GetInputValue("specialInfiniteUse").Split(',').Select(s => s.Trim().ToUpper()).ToHashSet();
     }
 
     public bool ExtraSettingsAPI_HandleSettingVisible(string SettingName)
@@ -120,7 +120,7 @@ public class InifiniteUse : Mod
             var baseItem = __instance.baseItem;
 
             bool isInfiniteUseEnabled = false;
-            if (specials.Contains(baseItem.UniqueName))
+            if (specials.Contains(baseItem.UniqueName.ToUpper()))
             {
                 isInfiniteUseEnabled = true;
             }

@@ -6,6 +6,20 @@ My own mods for the [Raft](https://store.steampowered.com/app/648800/Raft/) game
 
 ## Installation
 
+You can find pre-built versions of my mods at https://www.raftmodding.com/ (see links below).
+
+It requires you to first install [Raft Mod Loader](https://api.raftmodding.com/getting-started/installing-raft-mod-loader) for Raft.
+
+Then you can install each mod with the Install mod button from the website.
+
+## Build
+
+Simply zip the `banner.jpg`, `icon.png`, `.cs`, `modinfo.json` files of desired mod and change to extension to `.rmod`.
+
+Then right click on the file and choose to open it with Raft Mod Loader.
+
+## Installation (BepInEx)
+
 You can find pre-built versions of my mods at https://www.nexusmods.com (see links below).
 
 It requires you to first install [BepInEx](https://www.nexusmods.com/site/mods/287) for Raft.
@@ -14,7 +28,7 @@ You will have to launch the game and close it once.
 
 Then you can install each mod by dropping the dll file in the game's `BepInEx/plugins` folder.
 
-## Build
+## Build (BepInEx)
 
 Please refer to https://docs.bepinex.dev/master/articles/dev_guide/plugin_tutorial/1_setup.html for
 setting up your development environment.
