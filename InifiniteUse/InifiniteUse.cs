@@ -113,7 +113,7 @@ public class InifiniteUse : Mod
     *********************/
     [HarmonyPatch(typeof(ItemInstance), nameof(ItemInstance.Uses))]
     [HarmonyPatch(MethodType.Getter)]
-    static class armonyPatch_ItemInstance_Uses_Getter
+    static class HarmonyPatch_ItemInstance_Uses_Getter
     {
         static void Postfix(ItemInstance __instance, ref int __result)
         {
