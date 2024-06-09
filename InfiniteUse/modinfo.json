@@ -2,7 +2,7 @@
   "name": "Infinite Use",
   "author": "Nauja",
   "description": "Allow to toggle infinite use of items. Requires ExtraSettingsAPI to configure.",
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "license": "GNU AGPLv3",
   "icon": "icon.png",
   "banner": "banner.jpg",
