@@ -7,7 +7,7 @@ using System.Linq;
 
 // This mod is a port of my BepInEx mod https://github.com/Nauja/raft-mods/tree/main/InfiniteDurability
 
-public class InifiniteUse : Mod
+public class InfiniteUse : Mod
 {
     static JsonModInfo modInfo;
 

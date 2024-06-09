@@ -82,4 +82,4 @@ Allow to toggle infinite use of items.
 
 Mod at: https://www.raftmodding.com/mods/infinity-use
 
-<img src="https://raw.githubusercontent.com/Nauja/raft-mods/main/InifiniteUse/banner.jpg" width="500px"/>
+<img src="https://raw.githubusercontent.com/Nauja/raft-mods/main/InfiniteUse/banner.jpg" width="500px"/>
